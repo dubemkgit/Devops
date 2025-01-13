@@ -1,4 +1,4 @@
-trigger callCarAccount on SOBJECT (before insert, after update) {
+trigger callCarAccount on Account (before insert, after update) {
     if(trigger.isInsert){
 
     }

@@ -10,4 +10,8 @@ public class Calculator {
     public integer substract(Integer a, Integer b){
         return a-b;
     }
+
+    public integer multply(Integer a, Integer b){
+        return a*b;
+    }
 }
